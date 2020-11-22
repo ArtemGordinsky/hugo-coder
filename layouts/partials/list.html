@@ -1,12 +1,12 @@
 <section class="container list">
-  <h1 class="title">
-    {{- if eq .Kind "term" -}}
-      {{- i18n .Data.Singular | title -}}
-      {{- print ": " -}}
-    {{- end -}}
+<!--  <h1 class="title">-->
+<!--    {{- if eq .Kind "term" -}}-->
+<!--      {{- i18n .Data.Singular | title -}}-->
+<!--      {{- print ": " -}}-->
+<!--    {{- end -}}-->
 
-    {{- .Title -}}
-  </h1>
+<!--    {{- .Title -}}-->
+<!--  </h1>-->
   {{ .Content }}
   <ul>
     {{ range .Paginator.Pages }}
