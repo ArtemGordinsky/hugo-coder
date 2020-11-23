@@ -1,5 +1,4 @@
 **/themes/
-resources/_gen
 demo/
 .hugo/*
 !.hugo/version
